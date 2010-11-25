@@ -2,7 +2,7 @@
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
-@prefix cpack:   <http://www.swi-prolog.org/cliopatria/cpack#> .
+@prefix cpack:   <http://cliopatria.swi-prolog.org/schema/cpack#> .
 
 # This file is a Turtle-format RDF file that describes the package.  It
 # *must* be located in rdf/cpack/webaccess.ttl
@@ -11,7 +11,7 @@
 # this.  Otherwise you can specify the information inline as done below.
 # See http://xmlns.com/foaf/spec/ for defines fields.
 
-<> a cpack:Package ;
+<> a cpack:Library ;
 	cpack:packageName "webaccess" ;
 	dcterms:title "Access external web-resources" ;
 	cpack:author [ a foaf:Person ;
@@ -24,7 +24,8 @@
 	    ] ;
 	cpack:description
 
-"""The package description goes here.  You can use PlDoc Wiki markup.
+"""This library deals with accessing external web-resources: extracting
+   meta-data such as existence, manage thumbnails, etc.
 """ .
 
 
