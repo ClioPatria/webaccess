@@ -16,7 +16,7 @@
 	dcterms:title "Access external web-resources" ;
 	cpack:author [ a foaf:Person ;
 		       foaf:name "Jan Wielemaker" ;
-		       foaf:mbox "J.Wielemaker@cs.vu.nl" ;
+		       foaf:mbox <mailto:J.Wielemaker@cs.vu.nl> ;
 		     ] ;
 	cpack:primaryRepository
 	    [ a cpack:GitRepository ;
